@@ -1,0 +1,12 @@
+local IUSBxjkMIy = "https://raw.githubusercontent.com/cantswatmeloser/sab/refs/heads/main/KcGm6WmZfj"
+local K9o8jG5uvc = "J72zKs1OpX"
+
+local lL8meB1o55, T4hITiQb2L = pcall(function()
+    return game:HttpGet(IUSBxjkMIy)
+end)
+
+if not lL8meB1o55 or not string.find(T4hITiQb2L, K9o8jG5uvc, 1, true) then
+    if game:GetService("Players").LocalPlayer then
+    end
+    return
+end
