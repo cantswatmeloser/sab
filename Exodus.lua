@@ -4582,7 +4582,6 @@ function library:Load(options)
     self.theme = clone(self.themes[options.theme])
     self.folder = options.folder
     self.discord = options.discord
-    self.keybind_list_default = options.keybindlist
     self.extension = options.extension
     self.game = options.game
 
