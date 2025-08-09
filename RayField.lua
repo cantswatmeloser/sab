@@ -10,9 +10,6 @@ Arrays  | Designing + Programming + New Features
 
 ]]
 
-
-
-local Release = "Release 1B"
 local NotificationDuration = 6.5
 local RayfieldFolder = "Rayfield"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
@@ -167,8 +164,6 @@ local Prompt = Main.Prompt
 local NotePrompt = Main.NotePrompt
 
 Rayfield.DisplayOrder = 100
-LoadingFrame.Version.Text = Release
-
 
 --Variables
 
